@@ -1,0 +1,29 @@
+{
+  "name": "onixjs-lib",
+  "version": "0.0.1",
+  "description": "An extend lib for bitcoinjs-lib, it supports two new network of onix and onix-testnet, and it can generate contract creating and sending transactions",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onixcoin-io/onixjs-lib.git"
+  },
+  "keywords": [
+    "onix",
+    "onixjs",
+    "smart contract",
+    "bitcoin"
+  ],
+  "author": "Onix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onixcoin-io/onixjs-lib/issues"
+  },
+  "homepage": "https://github.com/onixcoin-io/onixjs-lib#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "onix-opcodes": "https://github.com/onixcoin-io/onix-opcodes-js.git#master",
+    "safe-buffer": "^5.1.1"
+  }
+}
