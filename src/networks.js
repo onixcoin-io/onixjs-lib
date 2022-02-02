@@ -1,7 +1,7 @@
 module.exports = {
     onix: {
         messagePrefix: '\x15Onix Signed Message:\n',
-        bech32: 'qc',
+        bech32: 'xc',
         bip32: {
             public: 0x0488b21e,
             private: 0x0488ade4
