@@ -1,6 +1,6 @@
 module.exports = {
     onix: {
-        messagePrefix: '\x15Onix Signed Message:\n',
+        messagePrefix: '\x15Onix Signed Message:\n\x28',
         bech32: 'xc',
         bip32: {
             public: 0x0488b21e,
@@ -11,7 +11,7 @@ module.exports = {
         wif: 0x80
     },
     onix_testnet: {
-        messagePrefix: '\x15Onix Signed Message:\n',
+        messagePrefix: '\x15Onix Signed Message:\n\x28',
         bech32: 'tq',
         bip32: {
             public: 0x043587cf,
